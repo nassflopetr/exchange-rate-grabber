@@ -1,0 +1,24 @@
+{
+    "name": "nassflopetr/exchange-rate-grabber",
+    "description": "Simple exchange rate grabber.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nazarii Florchuk",
+            "email": "nassflopetr@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0",
+        "ext-dom": "*",
+        "ext-curl": "*",
+        "ext-libxml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "NassFloPetr\\ExchangeRateGrabber\\": "src"
+        }
+    }
+}
